@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+
+html,body,#app{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #c63515;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.app{
+  white-space: nowrap;
+  height: 100%;
+}
+
+.div1{
+  position: relative;
+  vertical-align: top
+}
