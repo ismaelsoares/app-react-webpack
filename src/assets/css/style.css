@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+}
+
+html,body,#app{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.app{
+  white-space: nowrap;
+  height: 100%;
+}
+
+#div1{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal;
+  height: 100%;
+  width: 15%;
+  padding: 0 20px;
+  overflow: auto;
+  background: #c63515;
+}
+
+#div2{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal;
+  height: 100%;
+  width: 70%;
+  padding: 0 20px;
+  overflow: auto;
+  background: #784f3d;
+}
+
+#div3{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal;
+  height: 100%;
+  width: 15%;
+  padding: 0 20px;
+  overflow: auto;
+  background: #669066;
+}
